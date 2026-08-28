@@ -21,13 +21,20 @@
 html, body {
   margin: 0;
   padding: 0;
-  background-color: #1A1A1A;
-  background-image: url('/assets/bg_dark_pattern.png');
-  background-repeat: repeat;
-  background-attachment: fixed;
+  background-color: #1A1A1A !important;
+  background-image: url('/assets/bg_dark_pattern.png') !important;
+  background-repeat: repeat !important;
+  background-attachment: fixed !important;
+  background-size: auto !important;
   color: #F7F7F7;
   font-family: 'Poppins', sans-serif;
   min-height: 100vh;
+}
+
+app-root {
+  display: block;
+  min-height: 100vh;
+  background: transparent !important;
 }
 
 /* Neo-brutalist utility classes matching moure.dev style */
