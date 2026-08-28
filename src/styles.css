@@ -22,8 +22,8 @@ html, body {
   margin: 0;
   padding: 0;
   background-color: #1A1A1A;
-  background-image: radial-gradient(rgba(247, 247, 247, 0.08) 1px, transparent 1px);
-  background-size: 20px 20px;
+  background-image: url('/assets/bg_dark_pattern.png');
+  background-repeat: repeat;
   background-attachment: fixed;
   color: #F7F7F7;
   font-family: 'Poppins', sans-serif;
