@@ -1,0 +1,15 @@
+{
+  "projects": {
+    "default": "cloudforge-market-9dbcf"
+  },
+  "targets": {
+    "cloudforge-market-9dbcf": {
+      "hosting": {
+        "portfolio": [
+          "cloudforge-portfolio"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}

@@ -1,0 +1,86 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Poppins', system-ui, -apple-system, sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+  --color-neo-bg: #1A1A1A;
+  --color-neo-surface: #242424;
+  --color-neo-text: #F7F7F7;
+  --color-neo-border: #F7F7F7;
+  --color-neo-blue: #3EB0F9;
+  --color-neo-orange: #FFA61E;
+  --color-neo-red: #FF5500;
+  --color-neo-green: #00AA47;
+  --color-neo-purple: #9D4EDD;
+}
+
+:root {
+  color-scheme: dark;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #1A1A1A;
+  background-image: radial-gradient(rgba(247, 247, 247, 0.08) 1px, transparent 1px);
+  background-size: 20px 20px;
+  background-attachment: fixed;
+  color: #F7F7F7;
+  font-family: 'Poppins', sans-serif;
+  min-height: 100vh;
+}
+
+/* Neo-brutalist utility classes matching moure.dev style */
+.neo-card {
+  background-color: #1A1A1A;
+  border: 1px solid #F7F7F7;
+  box-shadow: 3px 3px 0px 0px #F7F7F7;
+  transition: transform 0.08s ease, box-shadow 0.08s ease;
+}
+
+.neo-card:hover {
+  transform: translate(2px, 2px);
+  box-shadow: 1px 1px 0px 0px #F7F7F7;
+}
+
+.neo-btn {
+  border: 1px solid #F7F7F7;
+  box-shadow: 3px 3px 0px 0px #F7F7F7;
+  transition: transform 0.08s ease, box-shadow 0.08s ease;
+  font-weight: 700;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.neo-btn:hover {
+  transform: translate(2px, 2px);
+  box-shadow: 1px 1px 0px 0px #F7F7F7;
+}
+
+.neo-btn:active {
+  transform: translate(3px, 3px);
+  box-shadow: 0px 0px 0px 0px #F7F7F7;
+}
+
+.neo-badge {
+  border: 1px solid rgba(247, 247, 247, 0.4);
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.75rem;
+  letter-spacing: -0.02em;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #1A1A1A;
+}
+::-webkit-scrollbar-thumb {
+  background: #333333;
+  border: 1px solid #555555;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #3EB0F9;
+}
